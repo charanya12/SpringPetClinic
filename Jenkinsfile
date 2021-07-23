@@ -25,7 +25,7 @@ pipeline{
     }
     stage('Deploy'){
         steps{
-            sh 'java -jar /var/lib/jenkins/workspace/PetclinicDeclarativePipeline/target/*.jar'
+            sh 'java -jar /var/lib/jenkins/workspace/Scriptedpipeline/target/*.jar'
         }
     }
     }
